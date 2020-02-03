@@ -26,6 +26,9 @@ def position_taken?(board, index)
   end
 end
 
+def move(board, index, token = "X" || "O")
+  
+
 def turn(board)
   puts "Please ender 1-9:"
 end
