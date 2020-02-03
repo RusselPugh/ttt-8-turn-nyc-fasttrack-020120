@@ -14,4 +14,4 @@ def valid_move?(boarn, index)
 end
 
 def position_taken?(board, index)
-  if board[index] ==
+  if board[index] == " " || board[index] == "" ||
