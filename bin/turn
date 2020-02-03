@@ -2,4 +2,4 @@
 require_relative '../lib/turn
 
 puts "Welcome to Tic Tac Toe!"
-display_board
+display_board(board)
