@@ -1,6 +1,5 @@
 def display_board(board)
-  puts "Player X, where would you like to go?"
-  puts board 
+  puts "" 
 end
 
 def position_taken?(board, index)
