@@ -26,7 +26,7 @@ def position_taken?(board, index)
   end
 end
 
-def move(board, index, token = "X" || "O")
+def move(board, index, token = "X")
   board[index] = token
 end
 
@@ -35,7 +35,7 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index) == true
-    move(board, index, token = "X" || "O")
+    move(board, index, token = "X")
     display_board(board)
   else
     turn(board)
