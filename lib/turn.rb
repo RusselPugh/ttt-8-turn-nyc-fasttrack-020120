@@ -9,4 +9,9 @@ end
 def valid_move?(boarn, index)
   if index.between?(0, 8) && position_taken?(board, index) == false
   true
-else 
+  else 
+  false 
+end
+
+def position_taken?(board, index)
+  if board[index] ==
