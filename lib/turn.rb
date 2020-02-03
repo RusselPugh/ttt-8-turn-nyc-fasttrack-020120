@@ -32,6 +32,7 @@ end
 
 def turn(board)
   puts "Please ender 1-9:"
-  user_input = 
+  user_input = gets.strip
+  input = 
 end
 
